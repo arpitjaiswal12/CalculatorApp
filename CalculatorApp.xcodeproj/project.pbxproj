@@ -12,7 +12,7 @@
 		2C783F162D4A055500A24B7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C783F152D4A055500A24B7F /* Assets.xcassets */; };
 		2C783F192D4A055500A24B7F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C783F182D4A055500A24B7F /* Preview Assets.xcassets */; };
 		2C783F202D4A082800A24B7F /* ButtonIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C783F1F2D4A082800A24B7F /* ButtonIcon.swift */; };
-		2C783F222D4A364600A24B7F /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C783F212D4A364600A24B7F /* ResultView.swift */; };
+		2C783F222D4A364600A24B7F /* OperationLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C783F212D4A364600A24B7F /* OperationLogic.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,7 +22,7 @@
 		2C783F152D4A055500A24B7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2C783F182D4A055500A24B7F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2C783F1F2D4A082800A24B7F /* ButtonIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonIcon.swift; sourceTree = "<group>"; };
-		2C783F212D4A364600A24B7F /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
+		2C783F212D4A364600A24B7F /* OperationLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationLogic.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +56,7 @@
 			isa = PBXGroup;
 			children = (
 				2C783F1F2D4A082800A24B7F /* ButtonIcon.swift */,
-				2C783F212D4A364600A24B7F /* ResultView.swift */,
+				2C783F212D4A364600A24B7F /* OperationLogic.swift */,
 				2C783F112D4A055400A24B7F /* CalculatorApp.swift */,
 				2C783F132D4A055400A24B7F /* ContentView.swift */,
 				2C783F152D4A055500A24B7F /* Assets.xcassets */,
@@ -144,7 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C783F142D4A055400A24B7F /* ContentView.swift in Sources */,
-				2C783F222D4A364600A24B7F /* ResultView.swift in Sources */,
+				2C783F222D4A364600A24B7F /* OperationLogic.swift in Sources */,
 				2C783F122D4A055400A24B7F /* CalculatorApp.swift in Sources */,
 				2C783F202D4A082800A24B7F /* ButtonIcon.swift in Sources */,
 			);

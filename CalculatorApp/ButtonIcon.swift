@@ -7,7 +7,6 @@
 
 import SwiftUI
 
-
 struct ButtonIcon: View {
     @Binding var expArray : [String]
     var bgColor : Color = .blue
@@ -30,7 +29,7 @@ struct ButtonIcon: View {
                 }
                 if let _ = Int(buttonValue){
                     displayValue.append(buttonValue)
-//                    displayValue = "0"
+                    // displayValue = "0"
                     print(displayValue)
                 } else {
                     switch buttonValue {
@@ -57,7 +56,7 @@ struct ButtonIcon: View {
                         expArray = convertToPostfix(infixArray: expArray)
                         print(evaluatePostfix(postfixArray: expArray))
                         displayValue =  String(evaluatePostfix(postfixArray: expArray))
-//                        displayValue = "0"
+                       // displayValue = "0"
                     case "AC":
                         expArray = []
                         displayValue = "0"
